@@ -32,6 +32,8 @@ a.btn {
     background-image: url('/Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: rgba(77, 71, 255, 0.048);
+    
 
 
 
@@ -89,7 +91,7 @@ nav {
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
     padding: 50px 150px;
-    margin: 0px 300px 300px 300px;
+    margin: 150px;
     border-radius: 30px;
     
 
@@ -129,4 +131,54 @@ nav {
 .usersec-title {
      font-size: 38px;
      font-weight: bold;
+}
+
+
+/*review */
+
+.review-mono{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 150px 150px 150px;
+    
+}
+
+.user-column{
+
+    background-color:rgba(255, 255, 255, 0.747);
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.041);
+    border-radius: 15px;
+    max-width: 400px;
+
+
+}
+
+.reviewer-picture{
+
+    border-radius: 50px;
+    margin-top: 8px;
+}
+
+.reviewer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgba(117, 117, 117, 1);
+}
+
+.date{
+
+    color: rgba(179, 179, 179, 1);
+    line-height: 1.1px;
+    
+
 }
