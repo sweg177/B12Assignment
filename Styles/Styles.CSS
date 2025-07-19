@@ -1,31 +1,29 @@
-
-
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Shared */
 
 a.btn {
-  background-color: #4E47FF;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  padding: 12px 36px;
-  font-size: 16px;
-  font-weight: 550;
-  text-decoration: none;
-  align-self: center;
-  
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: 550;
+    text-decoration: none;
+    align-self: center;
+
 }
 
 /* FRONT PAGE */
@@ -33,31 +31,102 @@ a.btn {
 .banner {
     background-image: url('/Assets/Hero-bg.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
+
+
+
+
+
 }
 
-nav{
-   display: flex;
+nav {
+    display: flex;
     justify-content: space-between;
     margin: 50px;
 
 }
-.logo{
+
+.logo {
     font-size: 34px;
     color: rgba(78, 71, 255, 1);
     font-weight: 900;
 }
 
-.banner-text{
+.banner-text {
     text-align: center;
     font-size: 65px;
     font-weight: bold;
     margin: 200px 300px 260px 300px;
+
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    margin: 300px 200px 150px 200px;
+}
+
+.action-text {
+    margin: 60px 0px;
+    font-size: 40px;
+}
+
+.action-intext {
+    margin: 60px 0px;
+    font-size: 24px;
+}
+
+.image-one {
+
+    border-radius: 30px;
+}
+
+
+/* User section */
+.productive-user-background {
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 150px;
+    margin: 0px 300px 300px 300px;
+    border-radius: 30px;
+    
+
+    
     
 }
 
 
 
+.usersec {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    justify-content: center;
 
+}
 
+.usersec ul{
+
+    list-style: none;
+    
+}
+
+.usersec li{
+
+    text-align:left;
+
+}
+
+.Big-letter {
+
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.usersec-title {
+     font-size: 38px;
+     font-weight: bold;
+}
