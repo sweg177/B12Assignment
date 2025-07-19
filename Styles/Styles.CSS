@@ -38,7 +38,7 @@ a.btn {
 /* FRONT PAGE */
 
 .banner {
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(77, 71, 255, 0.048);
