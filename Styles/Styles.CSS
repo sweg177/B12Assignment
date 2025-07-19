@@ -12,3 +12,41 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* Shared */
+
+button{
+
+    background-color: #4E47FF;
+    color:white ;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 550;
+  
+}
+
+/* FRONT PAGE */
+
+.banner {
+    background-image: url('/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+.logo{
+    font-size: 34px;
+    color: rgba(78, 71, 255, 1);
+    font-weight: 900;
+}
+
+
