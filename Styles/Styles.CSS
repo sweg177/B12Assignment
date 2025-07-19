@@ -15,16 +15,16 @@
 
 /* Shared */
 
-button{
-
-    background-color: #4E47FF;
-    color:white ;
-    border-radius: 10px;
-    border: none;
-    padding: 12px 36px;
-    align-self: center;
-    font-size: 16px;
-    font-weight: 550;
+a.btn {
+  background-color: #4E47FF;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: 550;
+  text-decoration: none;
+  align-self: center;
   
 }
 
@@ -38,7 +38,7 @@ button{
 }
 
 nav{
-    display: flex;
+   display: flex;
     justify-content: space-between;
     margin: 50px;
 
@@ -48,5 +48,15 @@ nav{
     color: rgba(78, 71, 255, 1);
     font-weight: 900;
 }
+
+.banner-text{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    
+}
+
+
+
 
 
