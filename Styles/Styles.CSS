@@ -91,7 +91,7 @@ nav {
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
     padding: 50px 150px;
-    margin: 150px;
+    margin: 150px 200px;
     border-radius: 30px;
     
 
@@ -104,7 +104,7 @@ nav {
 .usersec {
     display: flex;
     text-align: center;
-    gap: 60px;
+    gap: 150px;
     justify-content: center;
 
 }
@@ -182,3 +182,35 @@ nav {
     
 
 }
+
+/*focus*/
+
+.focus{
+
+text-align: center;
+justify-content: center;
+background-color:rgba(255, 255, 255, 0.747);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.041);
+padding: 50px 70px 50px 70px;
+border-radius: 15px;
+margin: 200px;
+}
+
+.focus-title{
+
+font-size: 50px;
+margin: 0px;
+
+
+}
+
+.focus-text{
+    color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 30px;
+}
+
+.big-picture{
+border-radius: 40px;
+    margin: 30px ;
+}
+
