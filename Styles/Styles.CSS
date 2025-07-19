@@ -23,7 +23,16 @@ a.btn {
     font-weight: 550;
     text-decoration: none;
     align-self: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
 
+}
+
+    a.btn:hover{
+    background-color: #dadd17;
+    color: black;
+    
+    
 }
 
 /* FRONT PAGE */
